@@ -1,7 +1,8 @@
 //home
 figure {
     position: fixed;
-    overflow:hidden;
+    overflow: hidden;
+    left: 0;
     .inner-home {
         position: fixed;
         width: 100vw;
@@ -14,8 +15,11 @@ figure {
         h2 {
             text-transform: uppercase;
             text-align: center;
-            font-size: 20vh;
-            line-height: 23vh;
+            font-size: 18vh;
+            line-height: 20vh;
+            &:hover {
+                opacity: 0;
+            }
         }
     }
 }
